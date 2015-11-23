@@ -1,0 +1,11 @@
+<h1>Home Page</h1>
+	<p>
+		<a href="/#/add-formula">Add a formula</a>
+	</p>
+	<ul>
+		<li ng-repeat='formula in formulas'>
+			<a href="/#/formula/{{formula._id}}">
+				{{formula.title}}
+			</a>
+		</li>
+	</ul>
